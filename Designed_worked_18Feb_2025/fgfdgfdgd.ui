@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1614</width>
+    <height>827</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContents</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1577</width>
+         <height>747</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget" native="true">
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="0" column="0">
+            <widget class="QTabWidget" name="tabWidget">
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <widget class="QWidget" name="tab">
+              <attribute name="title">
+               <string>Tab 1</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_3">
+               <item row="0" column="0">
+                <widget class="QScrollArea" name="scrollArea_2">
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>1515</width>
+                    <height>662</height>
+                   </rect>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_6">
+                   <item row="0" column="0">
+                    <widget class="QWidget" name="widget_2" native="true">
+                     <layout class="QGridLayout" name="gridLayout_8">
+                      <item row="0" column="0" colspan="2">
+                       <widget class="QSplitter" name="splitter_17">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <widget class="QLabel" name="label_94">
+                         <property name="text">
+                          <string>Chief Complaints</string>
+                         </property>
+                        </widget>
+                        <widget class="QPushButton" name="pushButton_26">
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(255, 85, 0);</string>
+                         </property>
+                         <property name="text">
+                          <string>Clear Complaints</string>
+                         </property>
+                        </widget>
+                       </widget>
+                      </item>
+                      <item row="0" column="4">
+                       <widget class="QSplitter" name="splitter_64">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <widget class="QLabel" name="label_112">
+                         <property name="maximumSize">
+                          <size>
+                           <width>70</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>Examination</string>
+                         </property>
+                        </widget>
+                        <widget class="QPushButton" name="pushButton_32">
+                         <property name="maximumSize">
+                          <size>
+                           <width>150</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(85, 170, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string>More Examinations</string>
+                         </property>
+                        </widget>
+                       </widget>
+                      </item>
+                      <item row="0" column="5">
+                       <widget class="QSplitter" name="splitter_63">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <widget class="QLabel" name="label_111">
+                         <property name="maximumSize">
+                          <size>
+                           <width>50</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>History</string>
+                         </property>
+                        </widget>
+                        <widget class="QPushButton" name="pushButton_31">
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(85, 170, 255);</string>
+                         </property>
+                         <property name="text">
+                          <string>Quick History</string>
+                         </property>
+                        </widget>
+                       </widget>
+                      </item>
+                      <item row="0" column="6">
+                       <widget class="QLabel" name="label_46">
+                        <property name="text">
+                         <string>Dignosis</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="4" rowspan="3">
+                       <widget class="QScrollArea" name="scrollArea_4">
+                        <property name="verticalScrollBarPolicy">
+                         <enum>Qt::ScrollBarAlwaysOn</enum>
+                        </property>
+                        <property name="horizontalScrollBarPolicy">
+                         <enum>Qt::ScrollBarAlwaysOn</enum>
+                        </property>
+                        <property name="sizeAdjustPolicy">
+                         <enum>QAbstractScrollArea::AdjustToContents</enum>
+                        </property>
+                        <property name="widgetResizable">
+                         <bool>true</bool>
+                        </property>
+                        <widget class="QWidget" name="scrollAreaWidgetContents_11">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>0</y>
+                           <width>441</width>
+                           <height>577</height>
+                          </rect>
+                         </property>
+                         <layout class="QGridLayout" name="gridLayout_7">
+                          <item row="0" column="3">
+                           <widget class="QSplitter" name="splitter_52">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLineEdit" name="lineEdit_38"/>
+                            <widget class="QLabel" name="label_98">
+                             <property name="frameShape">
+                              <enum>QFrame::Panel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <property name="text">
+                              <string>Kg</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="2" column="3">
+                           <widget class="QSplitter" name="splitter_61">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLineEdit" name="lineEdit_42"/>
+                            <widget class="QLabel" name="label_105">
+                             <property name="frameShape">
+                              <enum>QFrame::Panel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <property name="text">
+                              <string>/min</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="3" column="1">
+                           <widget class="QSplitter" name="splitter_27">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLineEdit" name="lineEdit_43"/>
+                            <widget class="QLabel" name="label_107">
+                             <property name="frameShape">
+                              <enum>QFrame::Panel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <property name="text">
+                              <string>%</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="1" column="2">
+                           <widget class="QLabel" name="label_100">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="text">
+                             <string>BP</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="2" column="2">
+                           <widget class="QLabel" name="label_104">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="text">
+                             <string>PR</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="0" column="2">
+                           <widget class="QLabel" name="label_97">
+                            <property name="text">
+                             <string>WT</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="5" column="1">
+                           <widget class="QLabel" name="label_110">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                              <horstretch>0</horstretch>
+                              <verstretch>13</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>27</height>
+                             </size>
+                            </property>
+                            <property name="sizeIncrement">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="baseSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="text">
+                             <string>Local Examination</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="1" column="0">
+                           <widget class="QLabel" name="label_99">
+                            <property name="text">
+                             <string>BMI</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="1" column="1">
+                           <widget class="QLineEdit" name="lineEdit_39"/>
+                          </item>
+                          <item row="3" column="2">
+                           <widget class="QLabel" name="label_108">
+                            <property name="text">
+                             <string>Temp</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="3" column="3">
+                           <widget class="QSplitter" name="splitter_62">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLineEdit" name="lineEdit_44"/>
+                            <widget class="QLabel" name="label_109">
+                             <property name="frameShape">
+                              <enum>QFrame::Panel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <property name="text">
+                              <string>mmHg</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="2" column="1">
+                           <widget class="QSplitter" name="splitter_60">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLineEdit" name="lineEdit_41"/>
+                            <widget class="QLabel" name="label_103">
+                             <property name="frameShape">
+                              <enum>QFrame::Panel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <property name="text">
+                              <string>/min</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="3" column="0">
+                           <widget class="QLabel" name="label_106">
+                            <property name="text">
+                             <string>SPO2</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="1" column="3">
+                           <widget class="QSplitter" name="splitter_59">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLineEdit" name="lineEdit_40"/>
+                            <widget class="QLabel" name="label_101">
+                             <property name="frameShape">
+                              <enum>QFrame::Panel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <property name="text">
+                              <string>mmHg</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="0" column="0">
+                           <widget class="QLabel" name="label_95">
+                            <property name="text">
+                             <string>HT</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="6" column="0" colspan="4">
+                           <widget class="QTextBrowser" name="textBrowser_18">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>200</height>
+                             </size>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="0" column="1">
+                           <widget class="QSplitter" name="splitter_51">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLineEdit" name="lineEdit_37"/>
+                            <widget class="QLabel" name="label_96">
+                             <property name="frameShape">
+                              <enum>QFrame::Panel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <property name="text">
+                              <string>CM</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="2" column="0">
+                           <widget class="QLabel" name="label_102">
+                            <property name="text">
+                             <string>RR</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </widget>
+                      </item>
+                      <item row="1" column="5" rowspan="3">
+                       <widget class="QScrollArea" name="scrollArea_5">
+                        <property name="verticalScrollBarPolicy">
+                         <enum>Qt::ScrollBarAsNeeded</enum>
+                        </property>
+                        <property name="horizontalScrollBarPolicy">
+                         <enum>Qt::ScrollBarAlwaysOn</enum>
+                        </property>
+                        <property name="sizeAdjustPolicy">
+                         <enum>QAbstractScrollArea::AdjustToContents</enum>
+                        </property>
+                        <property name="widgetResizable">
+                         <bool>true</bool>
+                        </property>
+                        <widget class="QWidget" name="scrollAreaWidgetContents_12">
+                         <property name="geometry">
+                          <rect>
+                           <x>0</x>
+                           <y>0</y>
+                           <width>282</width>
+                           <height>577</height>
+                          </rect>
+                         </property>
+                         <layout class="QGridLayout" name="gridLayout_11">
+                          <item row="0" column="0">
+                           <widget class="QSplitter" name="splitter_70">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLabel" name="label_116">
+                             <property name="maximumSize">
+                              <size>
+                               <width>50</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string>Personal</string>
+                             </property>
+                            </widget>
+                            <widget class="QPushButton" name="pushButton_36">
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(85, 170, 255);</string>
+                             </property>
+                             <property name="text">
+                              <string>Select</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="1" column="0">
+                           <widget class="QTextBrowser" name="textBrowser_21"/>
+                          </item>
+                          <item row="2" column="0">
+                           <widget class="QSplitter" name="splitter_66">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLabel" name="label_114">
+                             <property name="maximumSize">
+                              <size>
+                               <width>50</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string>Medical</string>
+                             </property>
+                            </widget>
+                            <widget class="QPushButton" name="pushButton_34">
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(85, 170, 255);</string>
+                             </property>
+                             <property name="text">
+                              <string>Select</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="3" column="0">
+                           <widget class="QTextBrowser" name="textBrowser_19">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>16777215</height>
+                             </size>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="4" column="0">
+                           <widget class="QSplitter" name="splitter_68">
+                            <property name="orientation">
+                             <enum>Qt::Horizontal</enum>
+                            </property>
+                            <widget class="QLabel" name="label_115">
+                             <property name="maximumSize">
+                              <size>
+                               <width>50</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string>Surgical</string>
+                             </property>
+                            </widget>
+                            <widget class="QPushButton" name="pushButton_35">
+                             <property name="maximumSize">
+                              <size>
+                               <width>100</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(85, 170, 255);</string>
+                             </property>
+                             <property name="text">
+                              <string>Select</string>
+                             </property>
+                            </widget>
+                           </widget>
+                          </item>
+                          <item row="5" column="0">
+                           <widget class="QTextBrowser" name="textBrowser_20"/>
+                          </item>
+                         </layout>
+                        </widget>
+                       </widget>
+                      </item>
+                      <item row="1" column="6">
+                       <widget class="QSplitter" name="splitter_46">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <widget class="QLabel" name="label_90">
+                         <property name="frameShape">
+                          <enum>QFrame::Panel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <property name="text">
+                          <string>1</string>
+                         </property>
+                        </widget>
+                        <widget class="QLineEdit" name="lineEdit_36"/>
+                        <widget class="QPushButton" name="pushButton_22">
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>../images.jpg</normaloff>../images.jpg</iconset>
+                         </property>
+                         <property name="iconSize">
+                          <size>
+                           <width>25</width>
+                           <height>25</height>
+                          </size>
+                         </property>
+                         <property name="flat">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </widget>
+                      </item>
+                      <item row="3" column="0">
+                       <widget class="QLabel" name="label_113">
+                        <property name="font">
+                         <font>
+                          <pointsize>11</pointsize>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="text">
+                         <string>Prescription</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="1">
+                       <widget class="QPushButton" name="pushButton_23">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(255, 85, 0);</string>
+                        </property>
+                        <property name="text">
+                         <string>Clear Prescription</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="2">
+                       <widget class="QPushButton" name="pushButton_30">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(255, 85, 0);</string>
+                        </property>
+                        <property name="text">
+                         <string>Delete Multiple Medicins</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="3">
+                       <widget class="QPushButton" name="pushButton_33">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(85, 170, 255);</string>
+                        </property>
+                        <property name="text">
+                         <string>Review History</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="0" colspan="4">
+                       <widget class="QTableWidget" name="tableComplaint">
+                        <property name="frameShape">
+                         <enum>QFrame::Box</enum>
+                        </property>
+                        <property name="alternatingRowColors">
+                         <bool>true</bool>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>0</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="gridStyle">
+                         <enum>Qt::SolidLine</enum>
+                        </property>
+                        <property name="sortingEnabled">
+                         <bool>false</bool>
+                        </property>
+                        <attribute name="verticalHeaderVisible">
+                         <bool>true</bool>
+                        </attribute>
+                        <attribute name="verticalHeaderCascadingSectionResizes">
+                         <bool>true</bool>
+                        </attribute>
+                        <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+                         <bool>true</bool>
+                        </attribute>
+                        <column>
+                         <property name="text">
+                          <string>Complaint Name</string>
+                         </property>
+                        </column>
+                        <column>
+                         <property name="text">
+                          <string>Duration</string>
+                         </property>
+                        </column>
+                        <column>
+                         <property name="text">
+                          <string>Word Not Visible</string>
+                         </property>
+                        </column>
+                        <column>
+                         <property name="text">
+                          <string>Clinical</string>
+                         </property>
+                        </column>
+                        <column>
+                         <property name="text">
+                          <string>Action</string>
+                         </property>
+                        </column>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab_2">
+              <attribute name="title">
+               <string>Tab 2</string>
+              </attribute>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1614</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
